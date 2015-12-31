@@ -1,0 +1,16 @@
+{
+  "name": "IRCv3",
+  "version": "0.0.1",
+  "description": "IRCv3 compatible library",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexendoo/IRC.git"
+  },
+  "author": "Alex Macleod",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Alexendoo/IRC/issues"
+  },
+  "homepage": "https://github.com/Alexendoo/IRC#readme"
+}
