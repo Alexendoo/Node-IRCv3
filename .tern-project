@@ -6,7 +6,6 @@
   ],
   "plugins": {
     "node": {},
-    "lint": {},
     "modules": {},
     "es_modules": {}
   }
