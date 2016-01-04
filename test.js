@@ -8,3 +8,6 @@ let clientTest = new irc.Client('testing', '127.0.0.1', {
     // ssl: true,
     // port: 50000
 })
+clientTest.on('raw', data => {
+    console.log(data);
+})
