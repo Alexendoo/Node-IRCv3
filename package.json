@@ -2,7 +2,7 @@
   "name": "IRCv3",
   "version": "0.0.1",
   "description": "IRCv3 compatible library",
-  "main": "main.js",
+  "main": "lib/main.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alexendoo/IRC.git"
