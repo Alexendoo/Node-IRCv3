@@ -11,11 +11,11 @@ let clientTest = new irc.Client('testing', '127.0.0.1', {
 clientTest.on('raw', data => {
     // console.log(data)
 })
-// clientTest.on('error', data => {
-//     console.log('<error>')
-//     console.log(data)
-//     console.log('</error>')
-// })
+clientTest.on('error', data => {
+    console.log('<error>')
+    console.log(data)
+    console.log('</error>')
+})
 // clientTest.on('notice', data => {
 //     console.log('<notice>')
 //     console.log(data)
@@ -51,34 +51,10 @@ clientTest.on('raw', data => {
 //     console.log(data)
 //     console.log('</part>')
 // })
-// clientTest.on('nick', data => {
-//     console.log('<nick>')
-//     console.log(data)
-//     console.log('</nick>')
-// })
-// clientTest.on('topic', data => {
-//     console.log('<topic>')
-//     console.log(data)
-//     console.log('</topic>')
-// })
-// clientTest.on('kick', data => {
-//     console.log('<kick>')
-//     console.log(data)
-//     console.log('</kick>')
-// })
-// clientTest.on('mode', data => {
-//     console.log('<mode>')
-//     console.log(data)
-//     console.log('</mode>')
-// })
-// clientTest.on('quit', data => {
-//     console.log('<quit>')
-//     console.log(data)
-//     console.log('</quit>')
-// })
-// clientTest.on('invite', data => {
-//     console.log('<invite>')
-//     console.log(data)
-//     console.log('</invite>')
-// })
 // account
+// invite
+// quit
+// mode
+// kick
+// topic
+// nick
